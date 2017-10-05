@@ -1,0 +1,6 @@
+.nav-link {
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
