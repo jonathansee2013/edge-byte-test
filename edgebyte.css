@@ -25,6 +25,9 @@ img {
 	vertical-align:top;
 	text-align:left;
 }
+#logo {
+	width: 290px;
+}
 object {
 	vertical-align:top;
 	outline:none;
@@ -37,6 +40,20 @@ ul li {
 }
 ul li a {
 	color:#d4411a;
+}
+
+.navbar-nav > li{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.nav-link {
+  color: rgba(0,0,0,.9);
+	font-size: 200%;
+	/*float: left !important;*/
+}
+.clearfix-padding {
+	clear: both;
+	padding: 2%;
 }
 .fleft {
 	float:left !important;
@@ -601,11 +618,11 @@ h5 {
 .box {
 	margin-right:30px
 }
-.container {
+.contained {
 	padding:0 26px 9px 0 !important;
 	position:relative;
 }
-.container img {
+.contained img {
 	position:absolute;
 	left:15px;
 	top:17px
